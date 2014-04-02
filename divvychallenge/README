@@ -1,0 +1,37 @@
+steveschmidt
+Divvy Bike Challenge Submission Recap
+
+
+Project Scope
+
+This project was a portion of a 5-day homework assignment where my subtopic for submission was analysis of distance...(open ended from there).
+
+My decision was to use starting and ending locations for each bike RIDE (one row of data per bike rental) and based off the euclidean distance, check the hypothesis that different locations experience different rental patterns from a usage standpoint for different time periods both during the week and by time of day.
+
+This module can be run per the comments on the top of the file with the following parameters:
+
+COMMAND_LINE$ ipython notebook --pylab
+
+PARAMETERS: Day of the week, Time Period of Day 
+
+
+Analysis of Distances Traveled from Starting Dock:
+
+Measured in Total Average Distance from Starting Dock->
+DockA - > DockB = distance x, summing over all DockA->DockX then Dividing by number of trips to each X
+
+Those distances were then normalized into the following ranges:
+*** bottom 10%, 10-30%, 30-50%, 50-70%, 70-90%, top 10% ***
+***referenced on the map by the colors white, yellow, green, magenta and red***
+
+Further this was segmented by weekday, Saturday, Sunday as well as three time periods within each day being 5am-1pm, 1pm-9pm and 9pm-5am.
+
+The visual results were with the following notes (actual visualization deck, pdf submitted):
+
+1pm-9pm: shows many more low distances downtown during the week signifying most likely a use for transportation to work, while weekend traffic is much higher in those same areas as well the highest distance measures are hit more frequently into the neighborhoods close to bike paths show in heavy black.
+
+5am-1pm: Very similar results as the 1-9pm, however there are (in the counts) more downtown low distance docks in this time frame possibly leading to a ‘more people ride to work’ conclusion.
+
+9pm-5am (overnight): weekday in this segment oddly shows many more high distance docks than weekend counterparts. This may be due to late evening/early morning exercise as they are by the lake vs run/walk. Sunday however shows the highest segment of low distance usage late night/over night possibly due to ‘healthy starts’ to the week or sunday fun day riding at night or possibly short family rides to and from events.
+
+NOTE: This can be easily modified to show variances of each time bucket to dig deeper into possibly why’s and station dependencies.  
