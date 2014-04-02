@@ -4,7 +4,7 @@ Divvy Bike Challenge Submission Recap
 
 Project Scope
 
-This project was a portion of a 5-day homework assignment where my subtopic for submission was analysis of distance...(open ended from there).
+This project was a portion of a 5-day project where my subtopic for submission was analysis of distance...(open ended from there).
 
 My decision was to use starting and ending locations for each bike RIDE (one row of data per bike rental) and based off the euclidean distance, check the hypothesis that different locations experience different rental patterns from a usage standpoint for different time periods both during the week and by time of day.
 
