@@ -14,6 +14,8 @@ COMMAND_LINE$ ipython notebook --pylab
 
 PARAMETERS: Day of the week, Time Period of Day 
 
+MANDATORY: Must include in the ipython directory [Shapefiles, Trips CSV, Stations CSV]
+
 
 Analysis of Distances Traveled from Starting Dock:
 
